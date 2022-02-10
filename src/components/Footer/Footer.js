@@ -26,9 +26,9 @@ const Footer = () => {
           <SocialIcons href='https://www.linkedin.com/in/fu-sheng-huang-212827171/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://www.facebook.com/fusheng902/'>
+          {/* <SocialIcons href='https://www.facebook.com/fusheng902/'>
             <AiFillFacebook size='3rem' />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialIconsContainer>
       </SocialIconsContainer>
     </FooterWrapper>

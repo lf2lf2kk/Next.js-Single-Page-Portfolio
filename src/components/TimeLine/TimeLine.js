@@ -46,8 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I graduate from The University of Melbourne, Computer and Software Systems bachelor degree. <br />
-        Began from zero and working hard to have a one. Below is my journey summary.
+        Began from zero and working hard to be one. Below is my journey overview.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

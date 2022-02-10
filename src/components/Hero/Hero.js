@@ -11,12 +11,12 @@ const Hero = () => (
         Jeremy's Portfolio
       </SectionTitle>
       <SectionText>
-        Graduated from Computer Science course, I am passionate about programming and developing. You can know me more and check my projects just by clicking on the links.  <br />
+        Graduated from Computer Science course in the University of Melbourne, I am passionate about programming and web & mobile developing. Check my projects below and see the magics.  <br />
         <br />
-        Watch Jeremy Doing Magic.
+        Give Jeremy Supports
       </SectionText>
-      <Button onClick={() => window.location = 'https://youtu.be/xMooUMG5q_g'}>
-        Do Some Magic
+      <Button onClick={() => window.location = 'https://www.buymeacoffee.com/lf2lf2kkG'}>
+        Buy Jeremy A Coffee
       </Button>
     </LeftSection>
   </Section >

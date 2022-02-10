@@ -2,14 +2,14 @@ import React from 'react';
 import { DiAppstore, DiFirebase, DiGitBranch, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-
+import Link from 'react-dom'
 const Technologies = () => (
   <Section id='technologies'>
     {/* <SectionDivider /> */}
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the programming world. < br />
-      From Back-end to Design
+      From Back-end to Database
     </SectionText>
     <List>
       <ListItem>
@@ -21,7 +21,7 @@ const Technologies = () => (
             HTML5  <br />
             CSS  <br />
             JavaScript  <br />
-            FLutter  <br />
+            Next.Js  <br />
             Dart
           </ListParagraph>
         </ListContainer>
@@ -33,7 +33,9 @@ const Technologies = () => (
           <ListParagraph>
             Node.Js  <br />
             Java  <br />
-            C++
+            C / C++ <br />
+            Flutter  <br />
+            Python
 
           </ListParagraph>
         </ListContainer>
@@ -45,7 +47,7 @@ const Technologies = () => (
           <ListParagraph>
             MongoDB  <br />
             Firebase  <br />
-            MySQL
+            AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>

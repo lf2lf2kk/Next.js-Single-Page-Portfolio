@@ -32,7 +32,9 @@ const Projects = () => (
         </BlogCard>
       ))}
     </GridContainer>
+
   </Section >
+
 );
 
 export default Projects;
