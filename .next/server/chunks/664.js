@@ -642,10 +642,11 @@ exports.useIntersection = useIntersection;
 var _react = __webpack_require__(689);
 var _requestIdleCallback = __webpack_require__(311);
 const hasIntersectionObserver = typeof IntersectionObserver !== 'undefined';
-function useIntersection({ rootMargin , disabled  }) {
+function useIntersection({ rootRef , rootMargin , disabled  }) {
     const isDisabled = disabled || !hasIntersectionObserver;
     const unobserve = (0, _react).useRef();
     const [visible, setVisible] = (0, _react).useState(false);
+    const [root, setRoot] = (0, _react).useState(rootRef ? rootRef.current : null);
     const setRef = (0, _react).useCallback((el)=>{
         if (unobserve.current) {
             unobserve.current();
@@ -655,11 +656,13 @@ function useIntersection({ rootMargin , disabled  }) {
         if (el && el.tagName) {
             unobserve.current = observe(el, (isVisible)=>isVisible && setVisible(isVisible)
             , {
+                root,
                 rootMargin
             });
         }
     }, [
         isDisabled,
+        root,
         rootMargin,
         visible
     ]);
@@ -674,6 +677,11 @@ function useIntersection({ rootMargin , disabled  }) {
         }
     }, [
         visible
+    ]);
+    (0, _react).useEffect(()=>{
+        if (rootRef) setRoot(rootRef.current);
+    }, [
+        rootRef
     ]);
     return [
         setRef,

@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import Button from '../../styles/GlobalComponents/Button';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -112,6 +113,9 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
+      <Button onClick={() => window.location = 'https://unimelbcloud-my.sharepoint.com/:b:/g/personal/fushengh_student_unimelb_edu_au/ERPjnvZfrGtKjN7MMncvcY8BDknHvXJTbRJlCxATMz-yJg?e=XJHgk2'}>
+        My Resume
+      </Button>
       {/* <SectionDivider /> */}
     </Section>
   );

@@ -56,7 +56,7 @@ export const TimeLineData = [
 
 export const AcomplishmentData = [
   { number: 6, text: 'Open Source Projects' },
-  { number: 5, text: 'Internships (Programming-based)', },
+  { number: 3, text: 'Internships (Programming-based)', },
   { number: 10, text: 'Certificates', },
   { number: 5, text: 'Sponsors', }
 ];
