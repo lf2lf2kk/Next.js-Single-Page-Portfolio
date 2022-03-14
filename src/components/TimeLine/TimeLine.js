@@ -113,7 +113,7 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <Button onClick={() => window.location = 'https://unimelbcloud-my.sharepoint.com/:b:/g/personal/fushengh_student_unimelb_edu_au/ERPjnvZfrGtKjN7MMncvcY8BDknHvXJTbRJlCxATMz-yJg?e=XJHgk2'}>
+      <Button onClick={() => window.location = 'https://unimelbcloud-my.sharepoint.com/:b:/g/personal/fushengh_student_unimelb_edu_au/ERPjnvZfrGtKjN7MMncvcY8BDknHvXJTbRJlCxATMz-yJg?e=z00Nex'}>
         My Resume
       </Button>
       {/* <SectionDivider /> */}
