@@ -113,9 +113,9 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <Button onClick={() => window.location = 'https://unimelbcloud-my.sharepoint.com/:b:/g/personal/fushengh_student_unimelb_edu_au/ERPjnvZfrGtKjN7MMncvcY8BDknHvXJTbRJlCxATMz-yJg?e=z00Nex'}>
+      {/* <Button onClick={() => window.location = 'https://drive.google.com/file/d/1FooLKh5aTh0BRYN7iv6k8u82xuocsuLA/view?usp=sharing'}>
         My Resume
-      </Button>
+      </Button> */}
       {/* <SectionDivider /> */}
     </Section>
   );
