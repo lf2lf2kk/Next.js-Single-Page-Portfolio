@@ -51,12 +51,12 @@ export const TimeLineData = [
   { year: 2019, text: 'Started my study in The University of Melbourne' },
   { year: 2020, text: 'Deepen my knowledges about any types of software development' },
   { year: 2021, text: 'Practice and learn more from building real proejcts with teamwork' },
-  { year: 2022, text: 'Graduated and Shared my projects with the world' },
+  { year: 2022, text: 'Graduated and Start my new journey in programming' },
 ];
 
 export const AcomplishmentData = [
   { number: 6, text: 'Open Source Projects' },
-  { number: 3, text: 'Internships (Programming-based)', },
-  { number: 10, text: 'Certificates', },
+  { number: 4, text: 'Internships (Programming-based)', },
+  { number: 20, text: 'Certificates', },
   { number: 5, text: 'Sponsors', }
 ];
