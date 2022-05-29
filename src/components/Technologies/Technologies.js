@@ -18,9 +18,7 @@ const Technologies = () => (
 					<ListParagraph>
 						React.Js  <br />
 						SCSS  <br />
-						HTML  <br />
-						CSS  <br />
-						JavaScript  <br />
+						HTML / CSS / JQuery <br />
 						Next.Js  <br />
 						Dart
 					</ListParagraph>
@@ -48,7 +46,8 @@ const Technologies = () => (
 						MongoDB  <br />
 						Firebase  <br />
 						AWS  <br />
-						Azure
+						Azure <br />
+						SQL
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
