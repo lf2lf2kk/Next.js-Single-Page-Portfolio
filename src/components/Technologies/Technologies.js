@@ -1,8 +1,8 @@
 import React from 'react';
-import { DiAppstore, DiFirebase, DiGitBranch, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { DiFirebase, DiGitBranch, DiReact, DiZend } from 'react-icons/di';
+import { Section, SectionText, SectionTitle, GoTop } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-import Link from 'react-dom'
+
 const Technologies = () => (
 	<Section id='technologies'>
 		{/* <SectionDivider /> */}
