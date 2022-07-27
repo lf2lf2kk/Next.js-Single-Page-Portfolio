@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Axios from "axios";
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const Projects = () => (
-	<Section id="projects">
+const Projects = () => {
+
+	return (<Section id="projects">
 		{/* <SectionDivider /> */}
 		<SectionTitle>Projects</SectionTitle>
 		<GridContainer>
@@ -13,7 +15,7 @@ const Projects = () => (
 				<BlogCard key={id}>
 					<Img src={image} />
 					<TitleContent>
-						<HeaderThree title>{title}</HeaderThree>
+						<HeaderThree>{title}</HeaderThree>
 						<Hr />
 					</TitleContent>
 					<CardInfo>{description}</CardInfo>
@@ -32,8 +34,8 @@ const Projects = () => (
 				</BlogCard>
 			))}
 		</GridContainer>
-	</Section >
+	</Section >)
 
-);
+};
 
 export default Projects;
