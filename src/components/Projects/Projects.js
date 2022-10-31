@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Axios from "axios";
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
