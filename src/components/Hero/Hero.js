@@ -13,11 +13,11 @@ const Hero = () => (
 			<SectionText>
 				Graduated from Computer Science majoy in the University of Melbourne, I am passionate about programming and web &amp; mobile developing. Check my projects below and have fun.  <br />
 			</SectionText>
-			<a href='/Resume.pdf' download={"Jeremy's Resume"}>
+			{/* <a href='/Resume.pdf' download={"Jeremy's Resume"}>
 				<Button>
 					My Resume
 				</Button>
-			</a>
+			</a> */}
 
 		</LeftSection>
 	</Section >
