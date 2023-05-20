@@ -19,9 +19,9 @@ jobs:
         with:
           submodules: true
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
       - name: Build Application
-        run: npm run build
+        run: yarn build
       - name: Deploy Production
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
