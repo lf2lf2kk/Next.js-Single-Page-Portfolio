@@ -3,11 +3,6 @@
 # dependencies
 node_modules
 
-# production
-/build
-out
-/.next
-
 # misc
 .DS_Store
 .eslintcache
